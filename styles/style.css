@@ -1,0 +1,60 @@
+body {
+  background: #7852a3;
+  margin: 0;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.music-area{
+  width: 400px;
+}
+.music-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+.music-text {
+  text-align: center;
+}
+.music-box {
+  border: 1px solid #777;
+  width: 350px;
+  height: 350px;
+  margin-top: 40px;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+.music-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+.music-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+  width: 100%;
+}
+.music-controls img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.music-controls img:hover {
+  transform: scale(1.1);
+}
+.next img {
+  transform: rotate(180deg);
+}
+.next img:hover {
+  transform: scale(1.1);
+  transform: rotate(180deg);
+}
+.hide {
+  display: none;
+}
